@@ -1,0 +1,16 @@
+/**
+ * @TODO replace the firebaseConfig object below with the one 
+ * provided for you by firebase after creating your project!
+*/
+const firebaseConfig = {
+    apiKey: "AIzaSyCqAgp_E2IgJSqDW2av8tIJEInngaTAqHI",
+    authDomain: "fire-message-5b2cb.firebaseapp.com",
+    projectId: "fire-message-5b2cb",
+    storageBucket: "fire-message-5b2cb.appspot.com",
+    messagingSenderId: "499424229270",
+    appId: "1:499424229270:web:e9a921d030559d37284fb7",
+    measurementId: "G-49B3GJ506E"
+};
+
+// initialize the firebase app with this built-in function
+firebase.initializeApp(firebaseConfig);
